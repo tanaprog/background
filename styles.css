@@ -29,7 +29,9 @@ body {
 
 .main {
     width: 1512px;
-    height: 4255px;
+    height: 4180px;
+    padding-left: 114px;
+    padding-bottom: 126px;
 }
 
 .main-header {
@@ -38,7 +40,7 @@ body {
 }
 
 .header-menu {
-    margin: 77px 88px 88px 114px;
+    padding: 77px 88px 88px 0;
 }
 
 .header-menu__link {
@@ -48,19 +50,16 @@ body {
 }
 
 .menu-link {
+    margin-left: 50px;
+}
+
+.menu-link:first-child {
     font-weight: bold;
-}
-
-.menu-link-1 {
-    margin: 0 34px 0 66px;
-}
-
-.menu-link-2 {
-    margin-right: 50px;
+    margin-left: 0;
 }
 
 .header-button {
-    margin: 44px 121px 55px 55px;
+    padding: 44px 121px 55px 55px;
 }
 
 .header-button-btn {
@@ -74,7 +73,7 @@ body {
 }
 
 .new-skills {
-    margin: 0 0 129px 113px;
+    margin-bottom: 129px;
     display: flex;
     justify-content: space-between;
 }
@@ -127,7 +126,7 @@ span {
 }
 
 .add-value {
-    margin: 0 100px 152px 114px;
+    margin: 0 100px 152px 0;
     width: 1298px;
     height: 620px;
     display: flex;
@@ -162,7 +161,6 @@ span {
     width: 549px;
     height: 417px;
     background-color: var(--color-element-rectangle);
-    /* opacity: 20%; */
     border-bottom-left-radius: 90px;
     border-top-left-radius: 90px;
     margin-top: 101px;
@@ -201,7 +199,7 @@ span {
 .main-business {
     display: flex;
     justify-content: space-between;
-    margin: 0 264px 75px 114px;
+    margin: 0 264px 75px 0;
     width: 1153px;
     height: 522px;
 }
@@ -258,7 +256,7 @@ span {
 .main-solution {
     display: flex;
     justify-content: space-between;
-    margin: 0 264px 163px 114px;
+    margin: 0 264px 163px 0;
     width: 1153px;
     height: 522px;
 }
@@ -274,7 +272,7 @@ span {
 }
 
 .main-banner {
-    margin: 0 100px 226px 114px;
+    margin: 0 100px 226px 0px;
     width: 1298px;
     height: 620px;
     display: flex;
@@ -311,7 +309,7 @@ span {
 }
 
 .footer {
-    margin: 0 190px 0 114px;
+    margin-right: 190px;
     display: flex;
     justify-content: space-between;
 }
@@ -367,11 +365,10 @@ span {
 }
 
 .footer-menu__text {
-    margin-left: 710px;
+    margin-left: 635px;
     font-size: 24px;
     font-weight: bold;
     color: var(--color-text);
-    margin-bottom: 126px;
 }
 
 @media (max-width: 1280px) {
